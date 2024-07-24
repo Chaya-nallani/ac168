@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T17:02:44 EDT" name="TestDemoSuite" finished-at="2024-07-18T17:03:26 EDT" duration-ms="42699">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T17:02:44 EDT" name="OrangeHRMLogin" finished-at="2024-07-18T17:03:01 EDT" duration-ms="17847">
+      <class name="com.practice.Testng.orangeHrm">
+        <test-method signature="launchApp()[pri:0, instance:com.practice.Testng.orangeHrm@1aafa419]" started-at="2024-07-18T17:02:44 EDT" name="launchApp" finished-at="2024-07-18T17:02:46 EDT" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="login()[pri:0, instance:com.practice.Testng.orangeHrm@1aafa419]" started-at="2024-07-18T17:02:46 EDT" name="login" finished-at="2024-07-18T17:02:51 EDT" duration-ms="4543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.practice.Testng.orangeHrm@1aafa419]" started-at="2024-07-18T17:02:51 EDT" name="verifyLogin" finished-at="2024-07-18T17:02:53 EDT" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="logout()[pri:0, instance:com.practice.Testng.orangeHrm@1aafa419]" started-at="2024-07-18T17:02:53 EDT" name="logout" finished-at="2024-07-18T17:03:01 EDT" duration-ms="8417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.practice.Testng.orangeHrm -->
+    </test> <!-- OrangeHRMLogin -->
+    <test started-at="2024-07-18T17:03:02 EDT" name="OrangeHRMMyInfo" finished-at="2024-07-18T17:03:26 EDT" duration-ms="24729">
+      <class name="com.practice.Testng.orangeHrm">
+        <test-method signature="launchApp()[pri:0, instance:com.practice.Testng.orangeHrm@ba2f4ec]" started-at="2024-07-18T17:03:02 EDT" name="launchApp" finished-at="2024-07-18T17:03:06 EDT" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="login()[pri:0, instance:com.practice.Testng.orangeHrm@ba2f4ec]" started-at="2024-07-18T17:03:06 EDT" name="login" finished-at="2024-07-18T17:03:11 EDT" duration-ms="4852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="navigateToMyInfo()[pri:0, instance:com.practice.Testng.orangeHrm@ba2f4ec]" started-at="2024-07-18T17:03:11 EDT" name="navigateToMyInfo" finished-at="2024-07-18T17:03:15 EDT" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMyInfo -->
+        <test-method signature="verifyMyInfo()[pri:0, instance:com.practice.Testng.orangeHrm@ba2f4ec]" started-at="2024-07-18T17:03:15 EDT" name="verifyMyInfo" finished-at="2024-07-18T17:03:18 EDT" duration-ms="3104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyInfo -->
+        <test-method signature="logout()[pri:0, instance:com.practice.Testng.orangeHrm@ba2f4ec]" started-at="2024-07-18T17:03:18 EDT" name="logout" finished-at="2024-07-18T17:03:26 EDT" duration-ms="8364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.practice.Testng.orangeHrm -->
+    </test> <!-- OrangeHRMMyInfo -->
+  </suite> <!-- TestDemoSuite -->
+</testng-results>
