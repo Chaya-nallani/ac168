@@ -22,8 +22,8 @@ public class LoginSteps {
 		Assert.assertTrue(title.contains(string));
 	}
 
-	@Then("page h1-tag is {string} and paragraph-tag is {string}")
-	public void h1_tag(String expected_text, String para) {
+	@Then("page h1-tag is [Preparing for the Interviews] and paragraph-tag is [You are at the right place].")
+	public void h1_tag() {
 		Assert.assertTrue(loginpage.getTextOfH1P1());
 	}
 	
@@ -68,9 +68,11 @@ public class LoginSteps {
 	}
 	@Then("DataStructures Dropdown displayed.")
 	public void data_structures_dropdown_displayed() {
-	   List<String>ActualList=loginpage.DropDownDataStructure();
+//	   List<String>exceptedResults=list_Expected.asList();
+//	   System.out.println(exceptedResults);
+		List<String>ActualList=loginpage.DropDownDataStructure();
 	   System.out.println("Actual Result: "+ActualList);
-	   //Assert.assertTrue(dt_as_list.containsAll(ActualList));
+	  // Assert.assertTrue(exceptedResults.containsAll(ActualList));
 	}
 
 	@And("^The (.+) are displayed with Get Started button.$")

@@ -32,6 +32,7 @@ public class Loginpage {
 	public boolean getTextOfH1P1() {
 		WebElement H1_text = driver.findElement(h1_text);
 		WebElement P_text= driver.findElement(p_text);
+		System.out.println(H1_text+"&&"+P_text);
 		return H1_text.isDisplayed() && P_text.isDisplayed();
 	}
 	public String get_title() {

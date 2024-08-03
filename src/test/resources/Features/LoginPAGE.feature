@@ -1,8 +1,8 @@
 Feature: Login Feature
-  Scenario: Verify Elements in Landing Page and HomePage.
+  Background: Verify Elements in Landing Page and HomePage.
     Given The user is in Landing Page
     When Verify Title "Numpy Ninja".
-    Then page h1-tag is "Preparing for the Interviews"and paragraph-tag is "You are at the right place".
+    Then page h1-tag is [Preparing for the Interviews] and paragraph-tag is [You are at the right place].
     And get-started button text is "Get Started".
     When Click [Get Started] button. User navigated to Login page.
     Then [Register] and [Sign in] links are displayed at the top right corner of Login page
@@ -11,16 +11,10 @@ Feature: Login Feature
     When User clicks [Sign in] link.
     And User enters "Nirvana" and "archanachaya" and clicks Login button
     When User is in HomePage.Get the title of that page
-    Then DataStructures Dropdown displayed.
-      | dropdown-menu show |
-      | Array              |
-      | Linked List        |
-      | Stack              |
-      | Queue              |
-      | Tree               |
-      | Graph              |
-
+    
+     
   Scenario Outline: Verify Homepage
+    Then DataStructures Dropdown displayed.
     Given The <pane> are displayed with Get Started button.
 
     Examples: 
